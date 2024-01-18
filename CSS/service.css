@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+    background-color: rgb(0, 0, 0);
+}
+
+.row-limit-size {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+} 
+
+.flex {
+    display: flex;
+}
+.head-top {
+    height: 90px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+
+.main-menu > ul > li {
+    position: relative;
+}
+
+.main-menu > ul > li > a {
+    display: block;
+    height: 90px;
+    line-height: 90px;
+    padding: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 19px;
+    text-transform: uppercase;
+    background-color: black;
+    width: 268px;
+    text-align: center;
+    
+}
+
+.main-menu>ul>li:hover>a {
+    color: #ff0000;
+    
+}
+
+h1 {
+    font-size: 66px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.tatouage>h2 {
+    width: 600px;
+    margin-left: 650px;
+    margin-top: 85px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #ffffff;
+  
+}
+
+.prix>p {
+    width: 600px;
+    margin-left: 650px;
+    margin-top: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h3 {
+    font-size: 48px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+text-transform: uppercase;
+margin-top: 85px ;
+margin-bottom: 50px;
+color: #ffffff;
+}
+
+.piercing>ul {
+
+margin-left: 100px;
+}
+
+.piercing>ul>li {
+    margin-left: 180px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.actes>ul>li {
+    margin-left: 280px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+
+
+footer {
+    background-color: black;
+    justify-content: space-around;
+    height: 130px;
+}
+
+footer>.tatoo>h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+.tatoo>p {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.tatouage>h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.tatouage>p {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+
+
+.piercieurs>h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.piercieurs>p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.faq>h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.contact>h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+

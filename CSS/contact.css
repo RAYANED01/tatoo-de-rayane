@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.row-limit-size {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.head-top {
+    height: 90px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+
+.main-menu>ul>li {
+    position: relative;
+}
+
+.main-menu>ul>li>a {
+    display: block;
+    height: 90px;
+    line-height: 90px;
+    padding: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 19px;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    width: 268px;
+    text-align: center;
+
+}
+
+.main-menu>ul>li:hover>a {
+    color: #ff0000;
+    ;
+}
+
+body {
+    background: #ffffff;
+    justify-content: center;
+    color: #000000;
+    }
+    
+    .contactez-nous {
+    width: 1000px;
+    padding: 0 50px 0 50px;
+    margin-left: 300px;
+    color: #ffffff;
+
+    
+    }
+    
+    .contactez-nous > h1 {
+    font-weight: 500;
+    margin-top: 25px;
+    color: #ffffff;
+    text-align: center;
+    }
+    
+    .contactez-nous > p {
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    color: #ffffff;
+    margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 83px;
+    margin-top: 25px;
+    }
+    
+    form div > label {
+    margin-bottom: 7px;
+    font-weight: 600;
+    }
+    
+    form div > input, form div > select, form div > textarea {
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Montserrat, "sans-serif";
+    
+    }
+    
+    form div > input, form div > select {
+    height: 50px;
+    padding-left: 10px;
+    }
+    
+    form div > select {
+    appearance: none;
+    background-size: 15px;
+    
+    background-position: right 10px top 50%;
+    background-repeat: no-repeat;
+    }
+    
+    form div > textarea {
+    height: 195px;
+    padding: 15px 0px 0px 10px;
+    }
+    
+    form div > input::placeholder, form div > textarea::placeholder {
+    color: white;
+    }
+    
+    form div > select:invalid {
+    color: white;
+    }
+    
+    form div > select option {
+    background: white;
+    color: #ffffff;
+    }
+
+    
+    
+    form div:last-child {
+    align-items:center;
+    margin-top: 20px;
+    }
+    
+    form button {
+    width: 450px;
+    max-width: 500px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 28px;
+    background: white;
+    border-radius: 25px;
+
+    color: #000000;
+    }
+
+    .contactez-nous>h1 {
+        font-size: 46px;
+        font-family:  Arial, sans-serif;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    footer {
+        background-color: rgb(0, 0, 0);
+        justify-content: space-around;
+        height: 130px;
+    }
+    
+    footer>.tatoo>h4 {
+        color: white;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    
+    }
+    
+    .tatoo>p {
+        color: white;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .tatouage>h4 {
+        color: white;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .tatouage>p {
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    .piercieurs>h4 {
+        color: white;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .piercieurs>p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-transform: uppercase;
+    }
+    
+    .faq>h4 {
+        color: white;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .contact>h4 {
+        color: white;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    

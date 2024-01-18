@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+    background-color: #000000;
+}
+
+.row-limit-size {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+} 
+
+.flex {
+    display: flex;
+}
+
+header figure  {
+    padding: 0 10px;
+    justify-content: left;
+
+}
+.head-top {
+    justify-content: center;
+    height: 0;
+    
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+.main-menu > ul > li {
+    position: relative;
+}
+
+.main-menu > ul > li > a {
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-menu > ul > li > a {
+        padding: 0 5px;
+    }
+}
+
+.main-menu > ul > li:hover > a {
+    color: #ff0000 ;
+}
+
+
+
+.main-menu > ul > li > ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    border-top: 2px solid #d31e44;
+    padding: 0 15px;
+    background-color: #fff;
+    box-shadow: 1px 2px 10px #ddd;
+    
+}
+
+.main-menu > ul > li:hover > ul {
+    display: block;
+}
+
+.main-menu > ul > li > ul > li > a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ddd;
+    color: black;
+    white-space: nowrap;
+}
+
+.main-menu > ul > li > ul > li:last-child > a {
+    border: none;
+}
+
+#burger {
+    display: none;
+    padding: 0 10px;
+}
+
+#burger img {
+    height: 40px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 950px){
+    .main-menu {
+        display: none;
+    }
+
+    div#burger {
+        display: block;
+    }
+}
+
+
+#banniere {
+    padding: 80px 0;
+    background-size: cover;
+    width: 500px;
+   
+}
+
+
+
+h2 {
+    text-align: center;
+   color: white;
+   padding-bottom: 20px;
+    
+}
+h3{
+    text-align: center;
+   color: white;
+   padding-bottom: 10px;
+    
+}
+#image1 {
+    padding : 10px 0;
+    background-size: cover;
+   
+    
+    }
+    h3{
+        text-align: center;
+        color: white;
+        padding-bottom: 20px; 
+    }
+    h4{
+        text-align: center;
+        color: white;
+        padding-bottom: 20px; 
+    }
+    h5{
+        text-align: left;
+        color: white;
+        padding-bottom: 20px; 
+        padding-left: 20px;
+       padding-top: 40px;
+
+    }
+    h6{
+        text-align: center;
+        color: white;
+        padding-bottom: 20px; 
+        margin-bottom: 60px;
+        margin-right: 50px;
+    }
+
