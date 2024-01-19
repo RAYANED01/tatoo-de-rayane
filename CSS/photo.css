@@ -20,7 +20,7 @@
 
 
 .head-top {
-    height: 90px;
+    height: 220px;
 }
 
 header nav ul {
@@ -47,6 +47,9 @@ header nav ul {
 
 
 }
+
+ 
+
 
 
 .main-menu>ul>li:hover>a {
@@ -135,7 +138,7 @@ footer>.tatoo>h4 {
     text-transform: uppercase;
 }
 
-.faq>h4 {
+.actu>h4 {
     color: white;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;

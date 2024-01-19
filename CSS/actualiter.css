@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+    background-color: black;
+}
+
+.row-limit-size {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.head-top {
+    height: 90px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+
+.main-menu>ul>li {
+    position: relative;
+}
+
+.main-menu>ul>li>a {
+    display: block;
+    height: 90px;
+    line-height: 90px;
+    padding: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 19px;
+    text-transform: uppercase;
+    background-color: black;
+    width: 268px;
+    text-align: center;
+
+}
+
+
+.main-menu>ul>li:hover>a {
+    color: #ff0000;
+  
+}
+#burger img{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 1800px;
+    padding-bottom: 90px;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+   
+h2{
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 30px;
+
+}
+
+
+
+footer {
+    background-color: black;
+    justify-content: space-around;
+    height: 130px;
+}
+
+footer>.tatoo>h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+.tatoo>p {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.tatouage>h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.tatouage>p {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+
+
+.piercieurs>h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.piercieurs>p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.actu>h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.contact>h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
