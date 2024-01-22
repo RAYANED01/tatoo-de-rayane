@@ -50,12 +50,19 @@ header nav ul {
     color: #ff0000;
   
 }
-#burger img{
+.head-top .main-menu #burger{
+    display: flex;
+
+    
+}
+
+.head-top .main-menu #burger img{
     height: 40px;
     margin-top: 20px;
-    margin-left: 1800px;
+    
     padding-bottom: 90px;
 }
+
 h1{
     text-align: center;
     color: #ffffff;
